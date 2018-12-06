@@ -90,6 +90,7 @@ def run_test_problem3a():
 
     # Test 4 (it is on window 3):
     point = rg.Point(30, 30)
+
     expected = 218
     answer = problem3a(window3, point, 20)
     print()
