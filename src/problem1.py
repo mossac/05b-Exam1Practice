@@ -194,7 +194,7 @@ def problem1a(m, n):
     #    TIME ESTIMATE:   10 minutes.
     # -------------------------------------------------------------------------
     n = n**2
-    m=m**2
+    m = m**2
     sum=0
     for k in range(m,n+1):
         sum=sum + math.sin(k)
